@@ -25,7 +25,7 @@ Rscript gmma00_fetch_Sarkisyan.r
 # structure data
 Rscript gmma01_structure.r amino_acid_genotypes_to_brightness_parsed.tsv
 
-# include various features from assignments dir for analysis
+# include various features from assignments dir for analysis - optional
 Rscript gmma_assign.r gmma_structured.rda
 
 # initial estimation of stability effects
